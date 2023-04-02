@@ -1,0 +1,27 @@
+def sumatoria (vector):
+    resultado = 0
+    for i in range (len(vector)):
+        resultado = resultado + vector (i)
+        return (resultado)
+
+def promedio  (resultado,vector):
+    promedad = resultado/len(vector)
+    return (promedad)
+def diferenciaPromedio (vector):
+    print("Diferencia entre edades y promedio")
+    print("")
+    print("Edad, promedio, diferencia")
+    for i in range (len(vector)):
+        print(vector[i], promedad, vector [i] - promedad)
+def edades_mayores (vector, promedio):
+    vector2 = []
+    for x in range (len(vector)):
+        if vector[x] >promedad:
+            vector2.append (vector[x])
+            return (vector2)
+def mayor_edad_int (vector):
+    mayor = 0
+    vector3 =[]
+    for i in range (len(vector)):
+        if vector [i] == mayor:
+            vector3.append(vector[i])
